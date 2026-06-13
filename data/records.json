@@ -1,0 +1,55 @@
+[
+  {
+    "type": "access_log",
+    "timestamp": "2025-05-01T12:00:00Z",
+    "userId": "user-123",
+    "ip": "192.168.0.1"
+  },
+  {
+    "type": "access_log",
+    "timestamp": "2025-05-01T12:05:00Z",
+    "userId": "",
+    "ip": "10.0.0.1"
+  },
+  {
+    "type": "access_log",
+    "timestamp": "2025-05-01T12:06:00Z",
+    "userId": "user-999",
+    "ip": "999.999.999.999"
+  },
+  {
+    "type": "transaction",
+    "amount": "1400.50",
+    "currency": "usd",
+    "timestamp": "2025-05-01T12:10:00Z"
+  },
+  {
+    "type": "transaction",
+    "amount": "not-a-number",
+    "currency": "eur",
+    "timestamp": "2025-05-01T12:11:00Z"
+  },
+  {
+    "type": "transaction",
+    "currency": "gbp",
+    "timestamp": "2025-05-01T12:12:00Z"
+  },
+  {
+    "type": "system_error",
+    "timestamp": "2025-05-01T12:15:00Z",
+    "level": "warning",
+    "message": "Disk usage exceeded 90%"
+  },
+  {
+    "type": "system_error",
+    "timestamp": "2025-05-01T12:16:00Z",
+    "level": "critical",
+    "message": "Database connection lost"
+  },
+  {
+    "type": "system_error",
+    "timestamp": "2025-05-01T12:17:00Z",
+    "level": "unknown",
+    "message": "Something went wrong"
+  }
+]
