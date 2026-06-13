@@ -1,0 +1,5 @@
+{"record":{"type":"access_log","timestamp":"2025-05-01T12:05:00Z","userId":"","ip":"10.0.0.1"},"error":"Invalid userId"}
+{"record":{"type":"access_log","timestamp":"2025-05-01T12:06:00Z","userId":"user-999","ip":"999.999.999.999"},"error":"Invalid IP address range"}
+{"record":{"type":"transaction","amount":"not-a-number","currency":"eur","timestamp":"2025-05-01T12:11:00Z"},"error":"Invalid amount"}
+{"record":{"type":"transaction","currency":"gbp","timestamp":"2025-05-01T12:12:00Z"},"error":"Missing required field 'amount'"}
+{"record":{"type":"system_error","timestamp":"2025-05-01T12:17:00Z","level":"unknown","message":"Something went wrong"},"error":"Invalid level 'unknown'. Must be one of: info, warning, critical"}
